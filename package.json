@@ -1,7 +1,7 @@
 {
   "name": "payout-cli",
   "version": "1.0.0",
-  "description": "CLI took for payout dates calculation",
+  "description": "CLI tool for payout dates calculation",
   "license": "MIT",
   "author": "artsiom.patotski",
   "main": "dist/index.js",
