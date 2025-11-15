@@ -1,0 +1,32 @@
+{
+  "name": "payout-cli",
+  "version": "1.0.0",
+  "description": "CLI took for payout dates calculation",
+  "license": "MIT",
+  "author": "artsiom.patotski",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "payout": "node ./dist/index.js",
+    "payout:ts": "ts-node src/index.ts",
+    "test": "jest ./src"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^22.19.1",
+    "eslint": "^9.39.1",
+    "eslint-config-prettier": "^10.1.8",
+    "jest": "^30.2.0",
+    "prettier": "^3.6.2",
+    "ts-jest": "^29.4.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.4"
+  },
+  "dependencies": {
+    "commander": "^14.0.2"
+  }
+}

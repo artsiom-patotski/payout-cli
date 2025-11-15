@@ -1,0 +1,8 @@
+{
+  "printWidth": 140,
+  "trailingComma": "all",
+  "singleQuote": true,
+  "tabWidth": 2,
+  "indentStyle": "space",
+  "endOfLine": "auto"
+}
